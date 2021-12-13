@@ -3,7 +3,7 @@ A Music Bot that automaticaly connect to a Channel and play music 24/7 (Powered 
 
 
 Requirements: ```discord.py, wavelink```
-Additional Requirements: https://github.com/freyacodes/Lavalink
+Additional Requirements: https://github.com/freyacodes/Lavalink (Latest Release)
 
 Install instructions:
 
