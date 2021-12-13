@@ -7,6 +7,6 @@ Additional Requirements: https://github.com/freyacodes/Lavalink
 
 Install instructions:
 
-  1. clone this repo: ```git clone https://github.com/FabiChan99/24-7-discord-radio/ ```
+  1. Clone this repo: ```git clone https://github.com/FabiChan99/24-7-discord-radio/ ```
   2. Chance Code in main.py and Cogs/radiomodule.py
   3. Launch ```main.py```
