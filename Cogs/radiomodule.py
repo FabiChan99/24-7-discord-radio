@@ -11,7 +11,7 @@ class Music(commands.Cog):
         self.refresh = 600 #Auto Reconnect in seconds
         self.channel = 861905485815873566 #Input Voice Channel ID Here
         self.port = 2333
-        self.server = 750365461945778209
+        self.server = 750365461945778209 # Input Discord Guild ID
         self.host = '127.0.0.1' #Put lavalink address here
         self.password = 'nicepassword'
         self.radio = "https://juka-kpop.stream.laut.fm/juka-kpop?pl=m3u&t302=2021-07-06_23-45-13&uuid=949425c3-ae7f-4196-b0ad-239bbe5e032a" #Input Stream URL Here
