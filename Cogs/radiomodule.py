@@ -25,7 +25,6 @@ class Music(commands.Cog):
     async def start_nodes(self):
         await self.bot.wavelink.initiate_node(host=self.host, port=self.port, password=self.password, rest_uri=f"http://{self.host}:{self.port}", identifier='Main', region='europe')
         self.bot.loop.create_task(radio(self))
-        self.bot.loop.create_task(restore_loop())
 
 # 24/7 radio player
 async def radio(self):
@@ -40,10 +39,6 @@ async def radio(self):
             await player.play(tracks[0])
         await asyncio.sleep(self.refresh)
 
-async def restore_loop(): #auto reboot to fix itself from hanging
-    await asyncio.sleep(3600)
-    print("Auto-Rebooting")
-    sys.exit()
 
 
 def setup(bot):
