@@ -10,7 +10,7 @@ class Music(commands.Cog):
         self.volume = 20
         self.refresh = 600 #Auto Reconnect in seconds
         self.channel = 861905485815873566 #Input Voice Channel ID Here
-        self.port = 2333
+        self.port = 2333 #Put lavalink server port here
         self.server = 750365461945778209 # Input Discord Guild ID
         self.host = '127.0.0.1' #Put lavalink address here
         self.password = 'nicepassword'
